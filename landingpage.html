@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KampusLink | Connect Your Campus</title>
+  <meta name="description" content="KampusLink connects students, opportunities, and campus life in one powerful platform." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f8fafc;
+      color: #0f172a;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 40px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-box {
+      width: 48px;
+      height: 48px;
+      background: #2563eb;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .logo-text {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin-left: 24px;
+      color: #334155;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #2563eb;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 0;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #475569;
+      max-width: 600px;
+      margin: 0 auto 40px;
+    }
+
+    .cta-button {
+      background: #2563eb;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background: #1e40af;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 80px;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    }
+
+    .feature-card h3 {
+      margin-bottom: 12px;
+      font-size: 18px;
+    }
+
+    .feature-card p {
+      color: #475569;
+      font-size: 15px;
+    }
+
+    footer {
+      margin-top: 100px;
+      padding: 40px 0;
+      border-top: 1px solid #e2e8f0;
+      text-align: center;
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #2563eb;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="logo-box">KL</div>
+        <div class="logo-text">KampusLink</div>
+      </div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="legal.kampus-link.com">Legal</a>
+        <a href="mailto:kampuslink.team@kampus-link.com">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Connecting Campus Life.</h1>
+      <p>
+        KampusLink is the platform designed to bring students, events,
+        opportunities, and communities together in one seamless experience.
+      </p>
+      <a href="mailto:kampuslink.team@kampus-link.com" class="cta-button">
+        Join Early Access
+      </a>
+    </section>
+
+    <section id="features" class="features">
+      <div class="feature-card">
+        <h3>Student Network</h3>
+        <p>Connect with students across departments and campuses.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Campus Opportunities</h3>
+        <p>Discover internships, events, and academic opportunities.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Unified Platform</h3>
+        <p>Everything campus-related in one organized digital space.</p>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 KampusLink. All rights reserved. <br><br>
+      <a href="terms.kampus-link.com">Terms</a>
+      <a href="privacy.kampus-link.com">Privacy</a>
+    </footer>
+  </div>
+
+</body>
+</html>
